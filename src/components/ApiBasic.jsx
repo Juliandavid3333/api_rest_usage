@@ -10,7 +10,7 @@ export const ApiBasic = () => {
                 const response = await axios.get('https://api.sampleapis.com/coffee/hot');
                 setCoffeeList(response.data);
             } catch (error) {
-                console.log('Error al consultar la API', error)
+                console.log('Error al consultar la API xd', error)
             }
         };
         fetchData();
