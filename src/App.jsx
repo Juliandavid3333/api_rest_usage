@@ -1,12 +1,13 @@
 import './App.css'
-import { ApiBasic } from './components/ApiBasic'
+import { ApiBasic } from './components/ApiBasic';
+import { CatGalleryFetch } from './components/CatGalleryFetch';
 
 function App() {
 
 
   return (
     <div>
-     <ApiBasic />
+     <CatGalleryFetch />
     </div>
   )
 }
